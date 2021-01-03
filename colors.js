@@ -1,3 +1,3 @@
-var colors = ["#EF5350", "#EC407A", "#AB47BC", "#7E57C2", "#3F51B5", "#2196F3", "#009688", "#43A047", "#689F38", "#EF6C00", "#0097A7"]
+var colors = ["#C62828", "#AD1457", "#8E24AA", "#3949AB", "#006064", "#2E7D32", "#BF360C"]
 var currentColor = colors[Math.floor(Math.random() * colors.length)];
 document.getElementsByTagName("body")[0].style.backgroundColor = currentColor;

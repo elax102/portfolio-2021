@@ -1,16 +1,10 @@
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 body{
-  background-color: #43A047;
+  background-color: #2E7D32;
   margin: 0px;
 }
 
 h1,a,p{
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
   color: #fff;
   line-height: 1.2;
 }
@@ -45,6 +39,16 @@ a{
   align-items: center;
   width: 100%;
   height: 100vh;
+}
+
+.container.projects {
+  height: auto;
+}
+
+@media (min-height: 922px) {
+  .container.projects{
+    height: 100vh;
+  }
 }
 
 .box{
